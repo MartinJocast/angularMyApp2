@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <button (click)="click()">click</button> <br>
+
+  <input type="button" [value]="btnText" (click)="ajoutElement(5)"> <br>
+  <h2>{{add}}</h2>
+  <input  [(ngModel)]="welcome">
+  <h2>Welcome : {{welcome}}</h2>
+</div>
+
+
+<app-employee></app-employee>
